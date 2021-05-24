@@ -1,0 +1,18 @@
+import org.junit.Test;
+
+public class MainClassTest extends MainClass{
+
+    @Test
+
+    public void testGetClassNumber() {
+        int proverka = this.getClassNumber();
+
+        if (proverka > 45) {
+            System.out.print("Указанное число _" + proverka + "_ больше _45_");
+        } else {
+            System.out.print("Указанное число _" + proverka + "_ меньше _45_");
+        }
+
+    }
+
+}
